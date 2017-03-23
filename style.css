@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #F7FCFC;
+  font-size: 16px;
+  margin: 0;
+}
+
+#container {
+  width: 500px;
+  height: 930px;
+  border-radius: 15px;
+  background: #6644D4;
+  color: #fff;
+  margin: 20px auto;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  margin: 15px 5%;
+  font-weight: bold;
+}
+
+.img {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/9a/94/07/9a9407c695c57d0f589f9d6916ee201c.jpg');
+  height: 45%;
+  width: 100%;
+  background-size: 100% 100%;
+  padding: 0;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 50px auto;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+/************************ TABLE /************************/
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+}
+
+tfoot td {
+  padding: 30px 0;
+  border-bottom: none;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.receipt {
+  margin: 0 5%;
+  font-size: 1.75em;
+  width: 90%;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+/******************************************************/
+
+.footer {
+  margin: 0 5%;
+}
+
+.secondary-text {
+  padding: 5px 0;
+  margin: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: underline;
+}
